@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "message_board_backend": {
+      "candid": "src/message_board_backend/message_board_backend.did",
+      "package": "message_board_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
